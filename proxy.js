@@ -93,7 +93,7 @@ class Proxy extends EventEmitter {
 
 const proxy = new Proxy(19132);
 
-proxy.addServer('server1', 'localhost', 19133);
+proxy.addServer('server1', '51.68.166.153', 19135);
 proxy.addServer('server2', 'localhost', 19134);
 
 proxy.on('connect', (clientSocket, serverSocket) => {
